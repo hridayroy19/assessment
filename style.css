@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* hader css use */
+
+.heading-picture{
+     width: 450px;
+    height: 550px;
+    flex-shrink: 0;
+}
+.heder-inf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 155px;
+}
+.header-section{
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.heading-title{
+color: #272727;
+font-size: 70px;
+font-weight: 800;
+
+}
+.btn{
+    color: #FFF;
+font-size: 13px;
+font-weight: 700;
+background-color: rgb(241, 100, 100);
+padding:12px;
+border-radius: 5px;
+margin-top: 11px;
+border: 0px;
+}
+.heading-about{
+ color: rgba(39, 39, 39, 0.60);
+font-size: 15px;
+font-weight: 400;
+margin-top: 15px;
+}
