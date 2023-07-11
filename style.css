@@ -8,6 +8,7 @@
      width: 450px;
     height: 550px;
     flex-shrink: 0;
+    margin-bottom: -4px;
 }
 .heder-inf{
     display: flex;
@@ -31,7 +32,7 @@ font-weight: 800;
 font-size: 13px;
 font-weight: 700;
 background-color: rgb(241, 100, 100);
-padding:12px;
+padding:10px;
 border-radius: 5px;
 margin-top: 11px;
 border: 0px;
@@ -65,16 +66,17 @@ line-height: 30px;
 }
 .conter-pic{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: 0px 430px;
     margin-top: 50px;
-background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+   gap: 40px;
     
 }
 .img-sec{
 
-    width: 150px;
+    width: 180px;
     height: 250px;
   
 
@@ -82,7 +84,7 @@ background-color:rgb(255, 255, 255);
 .picture{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);   
-    width: 220px;
+    width: 200px;
     height: 250px;
     text-align: center;
 }
@@ -91,14 +93,14 @@ background-color:rgb(255, 255, 255);
 
 .secound-section{
 margin-top: 50px;
-background-color: aquamarine;
+background: rgba(229, 84, 115, 0.05);
 }
 
 
 .sec-main{
     display: flex;
     align-items: center;
-    margin: 0px 0px  0px 480px ;
+    justify-content: center;
     text-align: center;
 }
 
@@ -121,13 +123,14 @@ background-color: aquamarine;
 
 .gelery{
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
 }
 .gl-pic{
     width: 220px;
     height: 280px;
     border-radius: 10px;
+   
 
 }
 .gelery{
@@ -135,29 +138,89 @@ background-color: aquamarine;
     margin-top: 20px;
 }
 
-.four{
-    background-color: rgb(33, 36, 35);
-    margin-top: 50px;
+
+.last-banner{
+    background: rgba(229, 84, 115, 0.10);
 }
-.image{
-    text-align: center;
-    
+.last-contenar {
+    background-image: url('Flower\ Asset/roy.png');
+    margin: 50px 200px;
+
+
 }
-.four-image{
-width: 932px;
-height: 249px;
-position: relative;
+.banner-tx{
+text-align: center;
+    padding: 80px;
+box-shadow: 5px 7px 4px;
 }
-.search{
-    position:sticky;
+
+.eml-section{
+    width: 400px;
+height: 35px;
+border-radius: 8px;
+background-color: aliceblue;
+border: 0px;
+border-radius: 7px;
 }
 
 
 /* footer */
+footer{
+    background-color:rgb(19, 18, 18);
+    width: 100%;
+    height: 249px;
+
+
+}
 .footer-section{
-
-background-color: black;
+color: wheat;
 text-align: center;
-color: white;
+margin-top: 20px;
+padding: 45px;
 
+
+}
+.footer-about{
+    margin: 20px;
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.input-typ{
+    text-align: center;
+    padding: 5px;
+      border-radius: 5px;
+    border: 0px;
+    font-size: 15px;
+
+}
+
+
+
+
+.inst-sec{
+    background-color: #FFF;
+}
+
+/* basic ad style */
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+
+
+span{
+    color: red;
+}
+
+.conter-about{
+    text-decoration: underline;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
 }
