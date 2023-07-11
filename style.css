@@ -178,7 +178,6 @@ text-align: center;
 margin-top: 20px;
 padding: 45px;
 
-
 }
 .footer-about{
     margin: 20px;
@@ -199,9 +198,6 @@ font-weight: 400;
 
 }
 
-
-
-
 .inst-sec{
     background-color: #FFF;
 }
@@ -211,9 +207,6 @@ font-weight: 400;
 .btn:hover{
     background-color: aquamarine;
 }
-
-
-
 span{
     color: red;
 }
@@ -227,10 +220,6 @@ span{
 
 /* support section start */
 
-.Support-section{
-   
-}
-
 .Support-contenar{
     display: flex;
     justify-content: center;
@@ -239,29 +228,19 @@ span{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 60px 280px;
-    
 
+    .Support-section{
+    padding: 30px;
+    }
+    .support-pic{
+        width: 80px;
+    height: 70px;
 
-.Support-section{
-  
-   padding: 30px;
-
-}
-
-.support-pic{
-    width: 80px;
-height: 70px;
-
-
-}
-
-.support-dlt{
-    text-align: center;
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-
-
-}
-
+    }
+    .support-dlt{
+        text-align: center;
+        color: rgba(39, 39, 39, 0.80);
+        text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+    }
